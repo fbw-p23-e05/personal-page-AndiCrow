@@ -1,0 +1,19 @@
+.link {
+    margin: 10px auto;
+}
+.link:hover {
+    color: red;
+    
+}
+a:hover {
+    color: green;
+    text-decoration: overline;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+
+}
+a {
+    margin: 5px;
+}
+body {
+    background-color: lightblue;
+}
