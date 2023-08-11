@@ -1,0 +1,55 @@
+.link {
+    margin: 10px auto;
+}
+.link:hover {
+    color: red;
+    
+}
+a:hover {
+    color: green;
+    text-decoration: overline;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+
+}
+a {
+    margin: 5px;
+}
+body {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.destination {
+    position: relative;
+    margin-bottom: 20px;
+}
+.destination img { 
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 400px;
+    transition: opacity 0.3s;
+}
+.destination:hover img {
+    display: block;
+    opacity: 1;
+}
+.destination p {
+    margin: 0;
+}
+.destination-list {
+    list-style: none;
+    padding: 0;
+}
+.destination:hover {
+    color: green;
+    text-decoration: underline;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.3);
+}
